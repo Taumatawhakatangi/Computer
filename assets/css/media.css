@@ -1,0 +1,189 @@
+@media (max-width: 1396px) {
+	.container {
+		width: 1200px;
+	}
+	.logo {
+		margin-right: 0;
+	}
+	.header {
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.header__menu {
+		padding: 0 16px 0;
+		transition: all .4s ease;
+	}
+	body.lock {
+		overflow: hidden;
+	}
+	.menu {
+		position: fixed;
+	    top: 0;
+	    left: -105%;
+	    width: 100%;
+	    height: 100%;
+	    background: #181818;
+	    z-index: 2;
+	    transition: all .4s ease;
+	    overflow: auto;
+	    padding-top: 100px;
+	}
+	.menu__link {
+		padding-left: 15px;
+	}
+	.menu__link:hover {
+		border-bottom: 2px solid transparent;
+		background: rgb(34 33 33);
+	}
+	.menu__list {
+		display: block;
+		overflow: auto;
+	}
+	.menu__list li + li {
+		margin-left: 0;
+	}
+	.logo {
+		order: 1;
+	}
+	.burger {
+		display: block;
+		order: 3;
+	}
+	.account {
+		order: 2;
+	}
+	.indent {
+		margin-top: 30px;
+	}
+	.header {
+		background-position: 56% 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		width: 720px ;
+	}
+	.results__title {
+		text-align: center;
+	}
+	.results__item {
+		margin-bottom: 20px;
+		align-items: center;
+	}
+	.results {
+		margin-bottom: -20px;
+	}
+	.results__descr {
+		padding-right: 0;
+		text-align: center;
+	}
+	.brands__item:not(:last-of-type,:nth-child(7)) {
+		border-bottom: 1px solid rgb(255 255 255 / 31%);
+	}
+
+	.brands__item:not(:last-of-type,:nth-child(4)) {
+		border-right: 1px solid rgb(255 255 255 / 31%);
+	}
+	.brands__item:nth-child(even) {
+		border-right: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 548px;
+	}
+	.offer-btn {
+		margin-bottom: 30px;
+	}
+	.job-description {
+		text-align: center;
+	}
+	.advantage-wrapper {
+	margin-bottom: 60px;
+	}
+	.brands__item:not(:last-of-type) {
+		border-bottom: 1px solid rgb(255 255 255 / 31%);
+	}
+
+	.brands__item:not(:last-of-type,:nth-child(4)) {
+		border-right: none;
+	}
+	.study-block-inner:nth-child(2) .study-block:before {
+		width: 25px;
+	}
+	.study-block-inner:nth-child(1) .study-block:after {
+		width: 25px;
+	}
+	.teacher-wrapper {
+		padding-bottom: 50px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 90%;
+		padding: 0 15px;
+	}
+	.count_wrap {
+		margin-left: 0;
+	}
+	.countdownHolder {
+		margin-bottom: -20px;
+	}
+	.countdownHolder span {
+		margin-bottom: 20px;
+	}
+	.job-img {
+		left: 11px;
+	}
+	.study-block-inner:nth-child(2) .study-block {
+		padding-left: 20px;
+	}
+	.study-block-inner:nth-child(1) .study-block {
+		padding-right: 48px;
+	}
+	.title-wrapp__img {
+		margin-bottom: 40px;
+	}
+	.title-wrapp__title {
+		text-align: center;
+	}
+	.footer-form__input {
+		max-width: 100%;
+		border-radius: 50px;
+		margin-bottom: 40px;
+	}
+	.form-btn {
+		position: initial;
+		right: 0;
+		max-width: 100%;
+	}
+	.social {
+		margin-top: 40px;
+	}
+	.footer .section-description {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 450px) {
+	.container {
+		width: 90%;
+		padding: 0 15px;
+	}
+	.countdownHolder {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.count_wrap.countSeconds {
+		margin-right: 25px;
+	}
+}
